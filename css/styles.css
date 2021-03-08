@@ -10,7 +10,12 @@ header{
     background-color: lightgrey;
  
 }
-
+footer{
+    background-color: lightgrey;
+}
+footer p{
+    margin: 1.5rem;
+}
 ul{
     list-style: none;
     padding: 0;
@@ -64,3 +69,22 @@ p{
     align-content: center;
     flex-wrap: wrap;
 }
+.main-footer{
+    display: flex;
+    flex-wrap: wrap;
+    flex-direction: column;
+    margin: auto;
+}
+.footer-buttons{
+    display: flex;
+    margin: 1rem;
+    font-weight: bolder;
+    
+
+
+}
+.footer-button-1{
+   margin-right: auto;
+    
+}
+
