@@ -7,7 +7,7 @@
   }
 
 header{
-    border: 2px red solid;
+    background-color: lightgrey;
  
 }
 
@@ -15,9 +15,22 @@ ul{
     list-style: none;
     padding: 0;
 }
+img{
+    max-width: 90%;
+    margin-bottom: 1rem;
+}
+h3{
+    font-size: 1.3rem;
+    margin-top: 4rem;
+}
+h2{
+    font-size: 1.5rem;
+    /* margin-top: 4rem; */
+}
 
 li{
     border: 3px olive solid;
+    background-color: whitesmoke;
     padding: 0 6rem;
     text-align: center;
     margin-top: 3px;
@@ -27,6 +40,9 @@ li{
 p{
     text-align: center;
     margin: 1rem;
+    margin-bottom: 3rem;
+    font-size: 1.2rem;
+    padding-bottom: .25rem;
 }
     
 
@@ -41,4 +57,10 @@ p{
 }
 .profile-image{
     max-width: 15rem;
+
+}
+.column{
+    display: flex;
+    align-content: center;
+    flex-wrap: wrap;
 }
