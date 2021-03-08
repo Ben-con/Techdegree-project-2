@@ -1,12 +1,32 @@
+* { 
+    box-sizing: border-box;
+  }
+
 header{
     margin: -8px;
     border: 2px red solid;
     padding: 4rem;
+   
+    
     
 }
+ul{
+    list-style: none;
+}
+
+li{
+    border: 3px olive solid;
+    padding: 0 3rem;
+    text-align: center;
+    margin-top: 3px;
+}
+    
+
 .main-header{
     display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
+   
+    
 }
