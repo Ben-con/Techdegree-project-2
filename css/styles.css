@@ -3,16 +3,14 @@
   }
   body{
       margin: 0;
+      text-align: center;
   }
 
 header{
     border: 2px red solid;
  
 }
-img{
-    max-width: 15rem;
-    
-}
+
 ul{
     list-style: none;
     padding: 0;
@@ -40,4 +38,7 @@ p{
    
    
     
+}
+.profile-image{
+    max-width: 15rem;
 }
