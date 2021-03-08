@@ -30,7 +30,22 @@ h3{
 }
 h2{
     font-size: 1.5rem;
-    /* margin-top: 4rem; */
+    
+}
+a{
+    color: black;
+   text-decoration: none;
+   transition: .5s;
+}
+a:hover{
+    font-weight: bolder;
+    font-size: 1.2em;
+    transition: .5s;
+
+}
+a:visited{
+    font-weight: bolder;
+    color: black;
 }
 
 li{
@@ -48,6 +63,10 @@ p{
     margin-bottom: 3rem;
     font-size: 1.2rem;
     padding-bottom: .25rem;
+}
+span{
+    font-size: 1.4rem;
+    margin-right: .5rem;
 }
     
 
@@ -85,6 +104,7 @@ p{
 }
 .footer-button-1{
    margin-right: auto;
+   
     
 }
 
