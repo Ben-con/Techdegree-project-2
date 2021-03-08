@@ -10,15 +10,21 @@ header{
     
     
 }
+img{
+    max-width: 75%;
+}
 ul{
     list-style: none;
+    padding: 0;
 }
 
 li{
     border: 3px olive solid;
-    padding: 0 3rem;
+    padding: 0 6rem;
     text-align: center;
     margin-top: 3px;
+    line-height: 2rem;
+    font-size: 20px;
 }
     
 
