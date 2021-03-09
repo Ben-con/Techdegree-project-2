@@ -17,7 +17,6 @@ footer p{
     margin: 1.5rem;
 }
 ul{
-    display: flex;
     flex-direction: column;
     list-style: none;
     padding: 0;
@@ -70,10 +69,12 @@ span{
     font-size: 1.4rem;
     margin-right: .5rem;
 }
+.main-header,ul{
+    display: flex;
+}
     
 
 .main-header{
-    display: flex;
     flex-wrap: wrap;
     flex-direction: column;
     align-items: center;
@@ -83,6 +84,7 @@ span{
 }
 .profile-image{
     max-width: 15rem;
+    
 
 }
 .column{
@@ -100,34 +102,58 @@ span{
     display: flex;
     margin: 1rem;
     font-weight: bolder;
-    
-
-
 }
 .footer-button-1{
-   margin-right: auto;
-    
+   margin-right: auto; 
+   align-self: center; 
+}
+.footer-button-3,.footer-button-4,.footer-button-5{
+    display: none;
 }
 
 @media only screen and (min-width: 768px){
 
     ul{
         flex-direction: row;  
-        min-width: 100%;
-
-        
-        
-        
-       
     }
     .item{
         text-align: center;
         margin: .25rem;
         font-size: 15px;
-    
     }
-    .profile-img{
-        flex-direction: row; 
+    .header-text{
+        display: flex;
+        flex-direction: row-reverse; 
+    }
+    .profile-image{
+        max-width: 20rem;
+        margin: 2rem;
+        
+    }
+    .main-title{
+        align-self: center;
+        text-align: left;
+    }
+    .column{
+        flex-direction: row;
+        justify-content:center;
+    }
+    .column section{
+        flex-basis: 40%;
+        
+
+    }
+    #portfolio{
+        width: 100%;
+    }
+    .footer-button-3,.footer-button-4,.footer-button-5{
+        display:flex;
+        margin: 1rem;
+        align-self:flex-start;
+        
+    }
+    .footer-button-2{
+        display: none;
     }
 
         
