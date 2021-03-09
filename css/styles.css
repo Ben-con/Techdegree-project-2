@@ -178,5 +178,9 @@ span{
         margin-right: auto;
         margin-left: 2rem;
     }
+    .main-footer{
+        margin: 0;
+
+    }
 }
 
