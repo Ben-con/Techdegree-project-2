@@ -53,7 +53,7 @@ a:visited{
 li{
     border: 3px olive solid;
     background-color: whitesmoke;
-    padding: 0 6rem;
+    padding: 0 3em;
     text-align: center;
     margin-top: 3px;
     line-height: 2rem;
@@ -113,23 +113,25 @@ span{
 
     ul{
         flex-direction: row;  
-        justify-items:center;
-        justify-content: space-evenly;
+        min-width: 100%;
+
+        
         
         
        
     }
     .item{
-        max-width: 10%;
         text-align: center;
-
-       
-      
-       
-       
-         
-        
+        margin: .25rem;
+        font-size: 15px;
+    
     }
+    .profile-img{
+        flex-direction: row; 
+    }
+
+        
+    
 
 }
 
