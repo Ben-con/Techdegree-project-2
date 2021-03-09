@@ -160,4 +160,23 @@ span{
     
 
 }
+@media only screen and (min-width: 1024px){
+    .main-header{
+        flex-direction: row;
+    }
+    .column section{
+        flex-basis: 30%;
+    }
+    #home{
+        margin-right: auto;
+        margin-left: 2rem;
+    }
+    .profile-image{
+        max-width: 50%;
+    }
+    .main-title{
+        margin-right: auto;
+        margin-left: 2rem;
+    }
+}
 
