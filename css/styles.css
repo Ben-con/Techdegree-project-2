@@ -25,6 +25,11 @@ ul{
 img{
     max-width: 90%;
     margin-bottom: 1rem;
+    transition: .5s;
+}
+img:hover{
+    box-shadow: 6px 8px black;
+    transition: 1s;
 }
 h3{
     font-size: 1.3rem;
@@ -155,6 +160,11 @@ span{
 }
 #skill-flex img{
     max-width: 80%;
+    transition: .5s;
+}
+#skill-flex img:hover{
+    box-shadow: 6px 8px blue;
+    transition: 1s;
 }
 
     
